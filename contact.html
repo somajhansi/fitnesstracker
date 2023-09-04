@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CUSTOM CSS  -->
+
+  <script src="https://kit.fontawesome.com/a7ddf544ce.js" crossorigin="anonymous"></script>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <title>FITNESS TRACKER</title>
+  <style>
+   body{
+   background-color:#ffa089;
+   }
+  .unorderedlist {
+    display: block;
+    margin-left: 40%;
+    /* position: relative; */
+    /* display: flex; */
+  }
+  .socialicons {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e0eafc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #cfdef3,
+      #e0eafc
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #cfdef3,
+      #e0eafc
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .contact2 ul li {
+    position: relative;
+    list-style: none;
+  }
+  
+  .anchor {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #e2e2e2;
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+      2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+  
+  .anchor:hover {
+    color: #999;
+    transform: translateX(20px);
+    box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+      2px 24px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .anchor:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact2 ul li a .fa {
+    position: relative;
+    z-index: 1;
+  }
+  .contact2 ul li:nth-child(1) a::before {
+    background: #1877f2;
+  }
+  .contact2 ul li:nth-child(2) a::before {
+    background: #c32aa3;
+  }
+  .contact2 ul li:nth-child(3) a::before {
+    background: #0e76a8;
+  }
+  .contact2 ul li:nth-child(4) a::before {
+    background: #1da1f2;
+  }
+  </style>
+</head>
+
+<body>
+
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h1 style="color: red;">FITNESS TRACKER</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./foodchart.html">Food Chart</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              CALCULATORS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="bmi.html">BMI CALCULATOR</a></li>
+              <li><a class="dropdown-item" href="calorie.html">CALORIE CALCULATOR</a></li>
+              <li><a class="dropdown-item" href="protein.html">PROTEIN CALCULATOR</a></li>
+            </ul>
+          </li>
+
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link active" aria-current="page" href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div style="color: white;" class="container address1">
+    <h3>
+      <span class="badge bg-warning">FITNEST ADDRESS</span>
+    </h3>
+    <h5>
+      <p class="contact1">
+        If you have any doubts or queries about diet, body fitness feel free to contact us.
+        We are happy to answer any
+        queries you have on our training programs. Please check the FITNEST
+        address below to contact us directly.
+      </p>
+    </h5>
+    <h3>
+      <span class="badge bg-warning">Address</span>
+    </h3>
+    <h5 class="contact1">
+      <p>FITNEST, Street, Town, Dist, State</p>
+      <p>Phone : 9999999999/8888888888</p>
+      <p>Email : abc@gmail.com/def@gmail.com</p>
+    </h5>
+    <h1>
+      Follow us on <span class="badge bg-success">Social Media</span>
+    </h1>
+  </div>
+  <div class="contact2" class="container-fluid socialicons col-sm-12">
+    <ul class="unorderedlist">
+      <li>
+        <a href="#" target="blank" class="anchor"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="#" target="blank" class="anchor"><i
+            class="fa fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="#" target="blank" class="anchor"><i
+            class="fa fa-linkedin"></i></a>
+      </li>
+      <li>
+        <a href="#" target="blank" class="anchor"><i class="fa fa-twitter"></i></a>
+      </li>
+    </ul>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+  <script src="//code.tidio.co/lhkzvq5umzfab1cuutdopgmhfsi2nabj.js" async></script>
+  <script src="//code.tidio.co/lhkzvq5umzfab1cuutdopgmhfsi2nabj.js" async></script>
+</body>
+</html>
